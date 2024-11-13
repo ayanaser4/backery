@@ -1,0 +1,431 @@
+*{
+    margin: 0%;
+
+}
+.home{
+    height:100vh;
+    background-image:url("../images/drew-coffman-1872.jpg");
+    background-size: 100% 100% ;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.home-nav{
+    width: 100%;
+    position: fixed;
+    top: 0;left: 0;
+}
+
+.nav-image{
+    width: 30%;    
+    margin-top: 25px ;
+    margin-left: 50px;
+    float: left;
+
+}
+.nav-image img{
+    width: 40%;
+}
+.nav-link{
+    width: 40%;
+    margin-top: 25px ;
+    padding-right:30px ;
+    float:right;
+
+}
+.nav-link ul {
+    list-style: none;
+}
+.nav-link ul a{
+    text-decoration: none;
+    color: white;
+
+}
+.nav-link ul li{
+    display: inline-block;
+    margin: 15px;
+}
+.clr{
+    clear: both;
+}
+.home-content{
+    text-align: center;
+    padding: 150px 400px ;
+    color: white;
+}
+.home-content p{ 
+    font-size: 20px;
+
+}
+.home-content h1{
+    font-size: 50px;
+    padding:25px 0px;
+    font-family: "Alegreya", serif;
+   
+
+}
+.btn{
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.btn-btn1{
+    background-color: tan;
+    margin-right: 2px;
+
+}
+.btn-btn2{
+    background-color: transparent;
+    border: 2px solid white;
+    margin-left: 5px;
+}
+.about{
+    margin:20px 10px ;
+    height:90vh;
+}
+.about-image{
+    width: 39%;
+    float:left;
+    padding: 40px 60px ;
+}
+.about-image img{
+    width: 100%;
+}
+.about-content{
+    padding-top: 30px;
+    margin: 80px 70px;
+    width: 40%;
+    height: 40%;
+    float:right;
+}
+.about-content h2{
+    color: #303030;
+
+    font-family:'Times New Roman', Times,  sans-serif;
+    font-size:30px ;
+    padding-right: 40px;
+}
+
+
+.about-content p{
+    color:#686c7f;
+
+    font-size: 15px;
+    line-height: 1.9;
+    padding: 10px;
+}
+.about i{
+    background-color:white;
+    color:#8e7754 ;
+    border: 1px solid  #686c7f;
+    padding: 10px;
+    border-radius: 50% 50%;
+    margin: 10px;
+}
+
+.about-content {
+    color:#686c7f;
+
+    padding: 2px 5px;
+}
+.location{
+    background-color:#f8f8f8 ;
+    height:90vh;
+    
+}
+
+
+.loc-content{
+    width: 50%;
+    height:400px;
+    padding-top:40px;
+    float:left;
+
+}
+
+.loc{
+    color: #303030;
+    padding-top: 80px;
+    padding-left: 60px;
+    font-size: 30px;
+}
+.loc1{
+    color: #686c7f;
+    padding-top:40px;
+    padding-left: 60px;
+    font-size: 20px;
+    line-height: 1.5;
+
+}
+.loc-image{
+    float: right;
+    width: 49%;
+    padding: 30px 0 ;
+
+}
+.loc-image img{
+    width: 90%;
+
+
+}.gallery{
+    height: 100vh;
+    padding-top: 30px;
+}
+.container{
+    text-align: center;
+}
+.gallery-home{
+    height:30%;
+    text-align: center;
+    line-height:2.5;
+}
+.p1{
+    padding-top: 35px;
+    font-size: 35px;
+    color: #303030;
+
+}
+.p2{
+    font-size: 20px;
+    color: #686c7f;
+}
+
+ .gallery-first{
+    width:30%;
+    padding-top: 30px;
+    margin: 0px 22px;
+    float: left;
+
+
+}
+.gallery-first img{
+    width:100%;
+}
+.gallery-first p{
+    text-align: center;
+}
+.p3{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #303030;
+
+}
+.p4{
+    font-size: 15px;
+    line-height: 1.5;
+    color: #686c7f;
+}
+.gallery-second{
+    width:30%;
+    padding-top: 30px;
+    margin: 0px 22px;
+    float: left;
+
+
+}
+.gallery-second img{
+    width:100%;
+}
+.gallery-second p{
+    text-align: center;
+}
+.p5{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #303030;
+}
+.p6{
+    font-size: 15px;
+    line-height: 1.5;
+    color: #686c7f;
+}
+.gallery-third{
+    width:30%;
+    padding-top: 30px;
+    margin: 0px 22px;
+    float:left;
+}
+.gallery-third img{
+    width:100%;
+}
+.gallery-third p{
+    text-align: center;
+}
+.p7{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #303030;
+}
+.p8{
+    font-size: 15px;
+    line-height: 1.5;
+    color: #686c7f;
+}
+.contact{
+    background-color:#f8f8f8 ;
+    height: 90vh;
+    margin-top: 8%;
+}
+.contact-content{  
+    width: 40%;
+    padding-top:10px;
+    float:left;
+
+}
+
+.par i{
+    background-color:#8e7754;
+    color:white ;
+    padding: 10px;
+    border-radius: 50% 50%;
+    margin: 10px;
+    
+}
+.map{
+    padding-right: 50px;
+    padding-top: 40px;;
+    float:right;
+}
+.p9{
+    color: #303030;
+    padding-top: 70px;
+    padding-left: 80px;
+    font-size: 30px;
+}
+.p10{
+    color: #686c7f;
+    padding-top:10px;
+    padding-left: 90px;
+    font-size: 20px;
+    line-height: 1.5;
+ 
+}
+.p11{
+    color: #686c7f;
+    padding-top:20px;
+    padding-left: 100px;
+    font-size: 20px;
+
+
+}
+.par{
+    padding-left: 100px;
+    padding-top: 10px;
+}
+.footer{
+    background-color:#403d38 ;
+    height: 70vh;
+    
+    
+}
+
+.footer1{
+    width: 20%;
+    float: left;
+    font-size: 20px;
+    padding-top: 30px;
+    margin: 15px 40px;
+    
+}
+.footer p{
+    font-size: 18px;
+    padding-top: 15px;
+    line-height: 1.5;
+}
+.footer1 p{
+    font-size: 15px;
+    padding-top: 20px;
+    line-height: 1.5;
+}
+.footer2{
+
+    width: 19%;
+    float: left;
+    font-size: 20px;
+    padding-top: 30px;
+    margin: 15px 30px;
+
+
+    
+}.footer2  p{
+    border-bottom:2px solid #4a4742 ;
+
+
+}
+.footer3{
+    width: 19%;
+    float: left;
+    font-size: 20px;
+    padding-top: 30px;
+    margin:15px 30px;
+
+    
+}.footer3  p{
+    border-bottom:2px solid #4a4742 ;
+
+
+}
+.footer4{
+    width: 21%;
+    float: left;
+    font-size: 20px;
+    padding-top: 30px;
+    margin: 15px 35px;
+    background-image: url("../images/contact-details-map.png");
+    background-size:300px 100px ;
+    background-position-y: 50%;;
+    background-repeat: no-repeat;
+
+    
+    
+}
+
+.footer4 p{
+    border-bottom:2px solid #4a4742 ;
+
+
+}
+
+
+h5{
+    color: white;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+.footer p{
+    line-height: 2;
+    color:#8d9396;
+
+}
+.end{
+    padding-top: 2%;
+    background-color:#353330 ;
+    height: 40vh;
+    text-align: center;
+}
+.end p{
+    padding-top: 30px;
+    color: white;
+    font-size: 15px;
+
+}.icon{
+    padding-top: 10px;
+}
+.icon i{
+    width: 30px;
+    height: 20px;
+    margin: 5px;
+    padding-top: 10px;
+    color: #8c8a86;
+    transition: all 0.5s;
+    background-color:#4a4742;
+    border-radius: 50% 50%;
+}
+.fa-brands:hover{
+    background-color: rgb(140, 120, 230);
+    color:white ;
+}
